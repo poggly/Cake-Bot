@@ -1,0 +1,9 @@
+cron:
+- description: "sends morning reminder to user"
+  url: /usermessage
+  schedule: every monday 15:30
+  timezone: America/Vancouver
+- description: "sends thursday morning reminder to channel"
+  url: /channelmessage
+  schedule: every thursday 11:00
+  timezone: America/Vancouver
